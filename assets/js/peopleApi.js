@@ -36,7 +36,7 @@ const filldata = (json) => {
     let html = "";
     //ForEach es más rápido a la hora de recorrer ese array
     //pp es people - porque se va a guardar persona por persona cada uno de los items
-    // del array, en una card 
+    // del array, en una card
     json.forEach(pp => {
         html += '<div class="col">'; // Se recomienda comillas simples
         html += '<div class="card h-100">';
